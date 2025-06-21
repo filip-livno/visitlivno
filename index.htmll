@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Livno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Livno</h1>
+        <p>Explore the beauty, history, and culture of Livno</p>
+    </header>
+    <section>
+        <h2>Main Attractions</h2>
+        <img src="assets/images/wild_horses.jpg" alt="Wild Horses of Livno" width="600">
+        <p>The wild horses of Kruzi are one of Livno’s most iconic sights.</p>
+    </section>
+    <section>
+        <h2>Tourist Map</h2>
+        <img src="assets/maps/livno_map.jpg" alt="Tourist Map" width="600">
+    </section>
+    <section>
+        <h2>Watch Our Promo Video</h2>
+        <video controls width="600">
+            <source src="assets/video/livno_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section>
+        <h2>Download Brochure</h2>
+        <a href="pdf/visitlivno.pdf" download>Click here to download our brochure (PDF)</a>
+    </section>
+    <footer>
+        <p>Contact: info@visitlivno.com | © 2025 Visit Livno</p>
+    </footer>
+</body>
+</html>
