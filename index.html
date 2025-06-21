@@ -1,39 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit Livno</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visit Livno</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      text-align: center;
+    }
+    h1 {
+      color: #006400;
+    }
+    section {
+      margin-top: 40px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .video {
+      display: block;
+      margin: 30px auto;
+      max-width: 90%;
+    }
+    .qr {
+      width: 200px;
+      margin-top: 20px;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #555;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Livno</h1>
-        <p>Explore the beauty, history, and culture of Livno</p>
-    </header>
-    <section>
-        <h2>Main Attractions</h2>
-        <img src="assets/images/wild_horses.jpg" alt="Wild Horses of Livno" width="600">
-        <p>The wild horses of Kruzi are one of Livno’s most iconic sights.</p>
-    </section>
-    <section>
-        <h2>Tourist Map</h2>
-        <img src="assets/maps/livno_map.jpg" alt="Tourist Map" width="600">
-    </section>
-    <section>
-        <h2>Watch Our Promo Video</h2>
-        <video controls width="600">
-            <source src="assets/video/livno_video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-    <section>
-        <h2>Download Brochure</h2>
-        <a href="pdf/visitlivno.pdf" download>Click here to download our brochure (PDF)</a>
-    </section>
-    <footer>
-        <p>Contact: info@visitlivno.com | © 2025 Visit Livno</p>
-    </footer>
+  <header>
+    <h1>Welcome to Livno</h1>
+    <p>Explore the beauty, nature and history of our town</p>
+  </header>
+
+  <section>
+    <h2>Tourist Video</h2>
+    <video class="video" controls>
+      <source src="assets/video/livno_video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>City Highlights</h2>
+    <img src="assets/images/livno_wild_horses.jpg" alt="Livno Wild Horses" />
+    <p>Livno is known for its wild horses, centuries-old mills, beautiful landscapes and warm people.</p>
+  </section>
+
+  <section>
+    <h2>Scan to Visit</h2>
+    <img class="qr" src="assets/qr/visitlivno_qr.png" alt="QR code to visit site" />
+  </section>
+
+  <footer>
+    <p>Contact: tourist@livno.ba | +387 34 201 111</p>
+    <p>&copy; 2025 Visit Livno</p>
+  </footer>
 </body>
 </html>
